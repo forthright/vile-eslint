@@ -1,0 +1,3 @@
+
+describe "plugin :: readme", ->
+  it "", ->
