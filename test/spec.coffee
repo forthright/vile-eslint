@@ -1,3 +1,2 @@
-
-describe "plugin :: readme", ->
-  it "", ->
+# TODO
+describe "plugin :: eslint", ->

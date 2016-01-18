@@ -13,11 +13,8 @@ A [vile](http://vile.io) plugin for [eslint](http://eslint.org).
 
 ## Config
 
-```yaml
-eslint:
-  config: .eslintrc
-  ignore: .eslintignore
-```
+The plugin uses ESLint's `CLIEngine` module to run analysis, so it will
+automatically pickup your `.eslintrc` and `.eslintignore` files.
 
 ## Hacking
 
