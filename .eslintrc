@@ -10,7 +10,7 @@ rules:
   semi: [2, "never"]
   strict: [2, "never"]
   max-nested-callbacks: [2, 4]
-  no-mixed-requires: [1, false]
+  no-mixed-requires: [0, false]
   no-return-assign: [2, "always"]
   no-unused-vars: [2, {"vars": "all", "args": "none"}]
   no-process-exit: [0]
