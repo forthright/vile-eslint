@@ -11,15 +11,39 @@ A [vile](http://vile.io) plugin for [eslint](http://eslint.org).
 
 ## Installation
 
-    npm i vile-eslint
+    npm i @forthright/vile --save-dev
+    npm i @forthright/vile-eslint --save-dev
 
 ## Config
 
 The plugin uses ESLint's `CLIEngine` module to run analysis, so it will
 automatically pickup your `.eslintrc` and `.eslintignore` files.
 
+## Ignoring Files
+
+Along with any ignore patterns in `.eslintignore`, `vile.allow`
+and `eslint.ignore` data will be added to the CLIEngine call.
+
+Example:
+
+```yaml
+eslint:
+  ignore: [ ".test" ]
+```
+
+## Allowing Files
+
+You can set `vile.allow` or `eslint.allow` to allow certain files.
+
+Example:
+
+```yaml
+eslint:
+  allow:
+    - src
+```
+
 ## Hacking
 
     cd vile-eslint
     npm install
-    npm test

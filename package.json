@@ -49,6 +49,6 @@
     "sinon-chai": "~2.8.0"
   },
   "peerDependencies": {
-    "@forthright/vile": ">=0.8.2"
+    "@forthright/vile": ">=0.9.1"
   }
 }
