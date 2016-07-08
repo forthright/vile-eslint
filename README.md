@@ -21,14 +21,15 @@ automatically pickup your `.eslintrc` and `.eslintignore` files.
 
 ## Ignoring Files
 
-Along with any ignore patterns in `.eslintignore`, `vile.allow`
+Along with any ignore patterns in `.eslintignore`, `vile.ignore`
 and `eslint.ignore` data will be added to the CLIEngine call.
 
 Example:
 
 ```yaml
 eslint:
-  ignore: [ ".test" ]
+  ignore:
+    - .test
 ```
 
 ## Allowing Files
