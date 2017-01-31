@@ -16,12 +16,12 @@
     "release-it": "release-it"
   },
   "dependencies": {
-    "bluebird": "^3.4.6",
-    "eslint": "^3.10.2",
-    "lodash": "^4.17.1"
+    "bluebird": "^3.4.7",
+    "eslint": "^3.14.1",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "@forthright/vile": ">=0.11.0",
+    "@forthright/vile": ">=0.11.5",
     "@forthright/vile-coffeelint": ">=0.1.13",
     "@forthright/vile-comment": ">=0.1.16",
     "@forthright/vile-coverage": ">=0.2.13",
@@ -36,19 +36,20 @@
     "@forthright/vile-newline": ">=0.1.11",
     "@forthright/vile-nsp": ">=0.2.11",
     "@forthright/vile-semver": ">=0.1.10",
+    "@forthright/vile-stat": "0.0.12",
     "@forthright/vile-whitespace": ">=0.1.10",
     "chai": "~3.5.0",
     "chai-as-promised": "^6.0.0",
-    "coffee-script": "~1.11.1",
+    "coffee-script": "~1.12.3",
     "istanbul": "^0.4.5",
     "mimus": "~0.2.3",
-    "mocha": "~3.1.2",
-    "npm-check-updates": ">=2.8.6",
-    "release-it": "^2.5.1",
-    "sinon": "~1.17.6",
+    "mocha": "~3.2.0",
+    "npm-check-updates": ">=2.8.9",
+    "release-it": "^2.5.3",
+    "sinon": "~1.17.7",
     "sinon-chai": "~2.8.0"
   },
   "peerDependencies": {
-    "@forthright/vile": ">=0.11.0"
+    "@forthright/vile": ">=0.11.5"
   }
 }
