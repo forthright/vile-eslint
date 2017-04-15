@@ -1,6 +1,4 @@
-# vile-eslint [![CircleCI](https://circleci.com/gh/forthright/vile-eslint.svg?style=shield&circle-token=30983c1276bcd5af3c68e487994c5a149393ede5)](https://circleci.com/gh/forthright/vile-eslint)
-
-[![score-badge](https://vile.io/api/v0/projects/vile-eslint/badges/score?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint) [![security-badge](https://vile.io/api/v0/projects/vile-eslint/badges/security?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint) [![coverage-badge](https://vile.io/api/v0/projects/vile-eslint/badges/coverage?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint) [![dependency-badge](https://vile.io/api/v0/projects/vile-eslint/badges/dependency?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint)
+# vile-eslint [![CircleCI](https://circleci.com/gh/forthright/vile-eslint.svg?style=shield&circle-token=30983c1276bcd5af3c68e487994c5a149393ede5)](https://circleci.com/gh/forthright/vile-eslint) [![score-badge](https://vile.io/api/v0/projects/vile-eslint/badges/score?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint) [![security-badge](https://vile.io/api/v0/projects/vile-eslint/badges/security?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint) [![coverage-badge](https://vile.io/api/v0/projects/vile-eslint/badges/coverage?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint) [![dependency-badge](https://vile.io/api/v0/projects/vile-eslint/badges/dependency?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint)
 
 A [vile](http://vile.io) plugin for [eslint](http://eslint.org).
 
@@ -11,8 +9,7 @@ A [vile](http://vile.io) plugin for [eslint](http://eslint.org).
 
 ## Installation
 
-    npm i @forthright/vile --save-dev
-    npm i @forthright/vile-eslint --save-dev
+    npm i -D vile vile-eslint
 
 ## Config
 
@@ -42,6 +39,22 @@ Example:
 eslint:
   allow:
     - src
+```
+
+## TypeScript Support
+
+If you are using something like [typescript-eslint-parser](https://www.npmjs.com/package/typescript-eslint-parser),
+you might not see any issues reported unless you add a glob pattern to
+your `src` path.
+
+An example `.vile.yml` (taken from [vile's .eslintrc](https://github.com/forthright/vile/blob/master/.eslintrc.yml)):
+
+```yaml
+eslint:
+  allow:
+    - src/*
+  ignore:
+    - lib
 ```
 
 ## Hacking
