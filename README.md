@@ -47,7 +47,7 @@ If you are using something like [typescript-eslint-parser](https://www.npmjs.com
 you might not see any issues reported unless you add a glob pattern to
 your `src` path.
 
-An example `.vile.yml` (taken from [vile's .eslintrc](https://github.com/forthright/vile/blob/master/.eslintrc.yml)):
+An example `.vile.yml` (taken from [vile's](https://github.com/forthright/vile/blob/master/.vile.yml)):
 
 ```yaml
 eslint:
