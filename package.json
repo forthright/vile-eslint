@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "bluebird": "^3.5.0",
-    "eslint": "^3.19.0",
+    "eslint": "^4.1.0",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
