@@ -1,6 +1,6 @@
 {
   "name": "vile-eslint",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Identify common style and maintainability issues in your JavaScript code.",
   "main": "lib/index.js",
   "files": [
