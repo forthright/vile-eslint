@@ -1,11 +1,11 @@
 # vile-eslint [![CircleCI](https://circleci.com/gh/forthright/vile-eslint.svg?style=shield&circle-token=30983c1276bcd5af3c68e487994c5a149393ede5)](https://circleci.com/gh/forthright/vile-eslint) [![score-badge](https://vile.io/api/v0/projects/vile-eslint/badges/score?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint) [![security-badge](https://vile.io/api/v0/projects/vile-eslint/badges/security?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint) [![coverage-badge](https://vile.io/api/v0/projects/vile-eslint/badges/coverage?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint) [![dependency-badge](https://vile.io/api/v0/projects/vile-eslint/badges/dependency?token=USryyHar5xQs7cBjNUdZ)](https://vile.io/~brentlintner/vile-eslint)
 
-A [vile](http://vile.io) plugin for [eslint](http://eslint.org).
+A [Vile](http://vile.io) plugin for identifying common style
+and maintainability issues in your JavaScript code (via [ESLint](http://eslint.org)).
 
 ## Requirements
 
-- [nodejs](http://nodejs.org)
-- [npm](http://npmjs.org)
+- [Node.js](http://nodejs.org)
 
 ## Installation
 
@@ -59,7 +59,7 @@ eslint:
 
 ## Versioning
 
-This project ascribes to [semantic versioning](http://semver.org).
+This project uses [Semver](http://semver.org).
 
 ## Licensing
 
@@ -86,15 +86,13 @@ Even if you are uncomfortable with code, an issue or question is welcome.
 
 ### Code Of Conduct
 
-This project ascribes to [contributor-covenant.org](http://contributor-covenant.org).
-
 By participating in this project you agree to our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ### Maintainers
 
 - Brent Lintner - [@brentlintner](http://github.com/brentlintner)
 
-## Hacking
+## Developing
 
     cd vile-eslint
     npm install

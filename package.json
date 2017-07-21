@@ -1,7 +1,7 @@
 {
   "name": "vile-eslint",
   "version": "0.1.15",
-  "description": "A vile plugin for ESLint",
+  "description": "Identify common style and maintainability issues in your JavaScript code.",
   "main": "lib/index.js",
   "files": [
     "lib",
