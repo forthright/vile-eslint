@@ -11,10 +11,19 @@ and maintainability issues in your JavaScript code (via [ESLint](http://eslint.o
 
     npm i -D vile vile-eslint
 
-## Config
+## Usage
 
-The plugin uses ESLint's `CLIEngine` module to run analysis, so it will
-automatically pickup your `.eslintrc` and `.eslintignore` files.
+If you don't have an ESLint config file create one first:
+
+    npx eslint --init
+
+Then:
+
+    npx vile a -p eslint
+
+Or:
+
+    npx vile a -p eslint some/file.js some/path
 
 ## Ignoring Files
 
